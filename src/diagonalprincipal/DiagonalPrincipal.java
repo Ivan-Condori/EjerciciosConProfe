@@ -19,6 +19,5 @@ public class DiagonalPrincipal {
         System.out.println("Diferencia de la Suma de una matriz 3 x 3:");
         System.out.println("");
         System.out.println("Resultado: " + diag.resultado());       
-    }
-    
+    }   
 }

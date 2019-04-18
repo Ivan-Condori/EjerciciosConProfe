@@ -2,8 +2,6 @@ package diagonalprincipal;
 public class Diagonal {
     int a;
     int b;
-    
-Diagonal(){}
 
 Diagonal(int d1, int d2){
         this.a = d1;
