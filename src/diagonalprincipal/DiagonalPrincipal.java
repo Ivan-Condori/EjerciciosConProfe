@@ -1,7 +1,8 @@
 package diagonalprincipal;
 public class DiagonalPrincipal {
-    public static void main(String[] args) {       
-        int valores[][] = new int[][]{{2, 4, 6},{3, 5, 7},{4, 6, 8}};
+    public static void main(String[] args) {   
+        
+        int valores[][] = new int[][]{{2, 3, 4},{5, -6, 7},{-1, 2, -4}};
         int diag1 = 0;
         int diag2 = 0;
         
@@ -15,9 +16,10 @@ public class DiagonalPrincipal {
                 }               
             }            
         }
-        Diagonal diag = new Diagonal(diag1, diag2);
+        Diagonal resolver = new Diagonal(diag1, diag2);
         System.out.println("Diferencia de la Suma de una matriz 3 x 3:");
         System.out.println("");
-        System.out.println("Resultado: " + diag.resultado());       
+        System.out.println("Resultado: " + resolver.resultado());
+        
     }   
 }
